@@ -1,0 +1,33 @@
+{
+    "name": "vml/module-customerimport",
+    "version": "1.0.0",
+    "description": "Magento 2 module for importing customers from CSV and JSON files via CLI command",
+    "type": "magento2-module",
+    "keywords": [
+
+    ],
+    "license": "proprietary",
+    "require": {
+        "php": "~8.2.0",
+        "magento/framework": "102.0.*",
+        "magento/module-customer": "102.0.*"
+    },
+    "authors": [
+        {
+            "name": "VML Customer Import",
+            "email": "ravinagpal.241996@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "ravinagpal.241996@gmail.com"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "VML\\CustomerImport\\": ""
+        }
+    }
+}
