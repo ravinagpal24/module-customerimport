@@ -1,33 +1,30 @@
 {
-    "name": "vml/module-customerimport",
-    "version": "1.0.0",
-    "description": "Magento 2 module for importing customers from CSV and JSON files via CLI command",
-    "type": "magento2-module",
-    "keywords": [
+	"name": "vml/module-customerimport",
+	"description": "The RFQ system empowers customers to request quotes for configurable products, custom services, or bulk quantities the business offers.",
+	"version": "1.0.0",
+	"type": "magento2-module",
+	"keywords": [
+		
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Grazitti Interactive",
+			"email": "info@grazitti.com",
+			"homepage": "https://www.grazitti.com/",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "magentosupport@grazitti.com"
+	},
+	"autoload": {
+		"psr-4": {
+	            "VML\\CustomerImport\\": ""
 
-    ],
-    "license": "proprietary",
-    "require": {
-        "php": "~8.2.0",
-        "magento/framework": "*",
-        "magento/module-customer": "*"
-    },
-    "authors": [
-        {
-            "name": "VML Customer Import",
-            "email": "ravinagpal.241996@gmail.com",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "email": "ravinagpal.241996@gmail.com"
-    },
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "VML\\CustomerImport\\": ""
-        }
-    }
+		},
+		"files": [
+			"registration.php"
+		]
+	}
 }
