@@ -9,8 +9,8 @@
     "license": "proprietary",
     "require": {
         "php": "~8.2.0",
-        "magento/framework": "102.0.*",
-        "magento/module-customer": "102.0.*"
+        "magento/framework": "*",
+        "magento/module-customer": "*"
     },
     "authors": [
         {
