@@ -21,10 +21,10 @@
 	{
 	    "type": "package",
 	    "package": {
-	        "name": "vml/magento2-module-customerimport",
+	        "name": "ravi/module-customerimport",
 	        "version": "1.0",
 	        "source": {
-	            "url": "https://github.com/vijayrami/Vml_CustomerImport.git",
+	            "url": "https://github.com/ravinagpal24/module-customerimport.git",
 	            "type": "git",
 	            "reference": "main"
 	        }
