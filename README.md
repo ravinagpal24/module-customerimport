@@ -9,7 +9,7 @@ The `VML_CustomerImport` module for Magento 2 allows you to import customers fro
 ### Step 1: Composer Installation
 You can install the module via Composer. Run the following commands in your Magento 2 root directory:
 
-    composer require vml/module-customer-import
+    composer require vml/module-customerimport
     php bin/magento module:enable VML_CustomerImport
     php bin/magento setup:upgrade
 
