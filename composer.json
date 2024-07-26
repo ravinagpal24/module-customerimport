@@ -6,9 +6,11 @@
 	"keywords": [
 		
 	],
-	    "minimum-stability": "stable",
-    "prefer-stable": true,
-	"license": "proprietary",
+	"minimum-stability": "dev",
+	    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
 	"authors": [
 		{
 			"name": "Grazitti Interactive",
