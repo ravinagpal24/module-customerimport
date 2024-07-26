@@ -6,17 +6,29 @@ The `VML_CustomerImport` module for Magento 2 allows you to import customers fro
 
 ## Installation details
 
-### Step 1: Composer Installation
+### Step 1.1: Composer Installation
 You can install the module via Composer. Run the following commands in your Magento 2 root directory:
 
     composer require vml/module-customerimport
     php bin/magento module:enable VML_CustomerImport
-    php bin/magento setup:upgrade
+    php bin/magento set:up && php bin/magento se:d:c && php bin/magento se:s:d -f && php bin/magento c:c && php bin/magento c:f
+
+### Type 1.2: Zip file
+
+* Unzip the zip file in `app/code/Vml/CustomerImport`
+* Enable the module by running `php bin/magento module:enable Vml_CustomerImport`
+
+Run Magento commands by running
+
+    php bin/magento set:up && php bin/magento se:d:c && php bin/magento se:s:d -f && php bin/magento c:c && php bin/magento c:f
+
+* Give `var`, `generated` and `pub` folder to 777 permission by running `chmmod -R 0777 var/ pub/ generated/`
 
 ### Step 2: Verify Installation
 Verify that the module is enabled by running:
     
     php bin/magento module:status
+
 You should see `VML_CustomerImport` in the list of enabled modules.
 
 ## Usage
@@ -36,4 +48,4 @@ Replace sample-csv and sample.json with your specific profile names and file pat
 Contributions are welcome! Feel free to submit issues and pull requests.
 
 ## License
-This module is licensed under the [OSL 3.0 License](). 
+This module is licensed under the [OSL 3.0 License]().
